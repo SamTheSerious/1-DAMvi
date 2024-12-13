@@ -1,0 +1,171 @@
+[
+  {
+    "numeroPokedex":"0597",
+    "generalInfo": {
+      "namePokemon": "Ferroseed",
+      "types": ["Grass"],
+      "species": "Thorn Pod Pokemon",
+      "height": {
+        "@unity": "m",
+        "#text": "0.6"
+      },
+      "weight": {
+        "@unity": "kg",
+        "#text": "18.8"
+      }
+    },
+    "abilities": [{
+      "@hidden": "false",
+      "#text": "Iron Barbs"
+    }],
+    "training": {
+      "evYield": "1 Defense",
+      "catchRate": "255",
+      "baseFriendship": "50",
+      "baseExp": "61",
+      "growthRate": "Medium Fast"
+    },
+    "breeding": {
+      "eggGroups": "Grass Mineral",
+      "genders": [{
+        "genderName": "Male",
+        "percentatge":{
+          "@unity": "%",
+          "#text": "50"
+        }
+      },{
+        "genderName": "Female",
+        "percentatge": {
+          "@unity": "%",
+          "#text": "50"
+        }
+      }],
+      "eggCycles": "20"
+    },
+    "evolutions": [{
+        "numPkdx": "0598",
+        "nameEvo": "Ferrothorn",
+        "types":["Grass"],
+        "levelEvo": "40",
+        "method": "Leveling Up"}
+    ],
+    "baseStats": {
+      "hp": "44",
+      "attack": "50",
+      "defense": "91",
+      "spAttack": "24",
+      "spDefense": "86",
+      "speed": 10
+    },
+    "moves": [
+      {
+        "level": "1",
+        "moveName": "Harden",
+        "typeMove": "Normal",
+        "category": "Status",
+        "power": "",
+        "acc": ""
+      },
+      {
+        "level": "1",
+        "moveName": "Tackle",
+        "typeMove": "Normal",
+        "category": "Physical",
+        "power": "40",
+        "acc": "100"
+      },
+      {
+        "level": "5",
+        "moveName": "Metal Claw",
+        "typeMove": "Steel",
+        "category": "Physical",
+        "power": "50",
+        "acc": "95"
+      },
+      {
+        "level": "10",
+        "moveName": "Pin Missile",
+        "typeMove": "Bug",
+        "category": "Physical",
+        "power": "25",
+        "acc": "95"
+      },
+      {
+        "level": "15",
+        "moveName": "Ingrain",
+        "typeMove": "Grass",
+        "category": "Status",
+        "power": "",
+        "acc": ""
+      },
+      {
+        "level": "20",
+        "moveName": "Flash Cannon",
+        "typeMove": "Steel",
+        "category": "Special",
+        "power": "80",
+        "acc": "100"
+      },
+      {
+        "level": "25",
+        "moveName": "Iron Head",
+        "typeMove": "Steel",
+        "category": "Physical",
+        "power": "80",
+        "acc": "100"
+      },
+      {
+        "level": "30",
+        "moveName": "Self-Destruct",
+        "typeMove": "Normal",
+        "category": "Physical",
+        "power": "200",
+        "acc": "100"
+      },
+      {
+        "level": "35",
+        "moveName": "Iron Defense",
+        "typeMove": "Steel",
+        "category": "Status",
+        "power": "",
+        "acc": ""
+      },
+      {
+        "level": "41",
+        "moveName": "Curse",
+        "typeMove": "Ghost",
+        "category": "Status",
+        "power": "",
+        "acc": ""
+      },
+      {
+        "level": "45",
+        "moveName": "Gyro Ball",
+        "typeMove": "Steel",
+        "category": "Physical",
+        "power": "",
+        "acc": "100"
+      },
+      {
+        "level": "50",
+        "moveName": "Explosion",
+        "typeMove": "Normal",
+        "category": "Physical",
+        "power": "250",
+        "acc": "100"
+      }
+    ],
+    "pokedexEntries":[
+      {
+        "gameName": "Sword",
+        "locations": ["Route 4","Bridge Field","Motostoke Riverbank","Stony Wilderness","Lakeside"],
+        "description": "It defends itself by launching spikes, but its aim isn’t very good at first. Only after a lot of practice will it improve."
+      },
+      {
+        "gameName": "Shield",
+        "locations": ["Cave"],
+        "description": "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong"
+      }
+    ]
+  }
+]

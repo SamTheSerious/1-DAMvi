@@ -1,0 +1,242 @@
+body{
+    height: 100%;
+}
+.grid-container{
+    display: grid;
+    width: 98%;
+    height: 98%;
+    grid-template-rows: .2fr 2fr .2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'title title'
+                         'porta imagen'
+                         'foot foot';
+}
+.logo-delrollo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    height: 1%;
+}
+.icono-delrollo{
+    width: 5%;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: forestgreen;
+}
+.texto-boton-header{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+    color: white;
+}
+header{
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo-header{
+    width: 10%;
+    border: orange 5px solid;
+    border-radius: 50%;
+}
+.linea, .linea2{
+    border-bottom: forestgreen 5px solid;
+    width: 80%;
+}
+.linea{
+    width: 10%;
+}
+.boton-header{
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    box-shadow:  -13px 7px 25px -4px rgba(0,0,0,0.58);
+    color: white;
+    font-weight: bold;
+}
+.boton-header:active{
+    transform: scale(90%);
+}
+.portada{
+    grid-area: porta;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+@keyframes entrada {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateX(-68px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateX(-28px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateX(-8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+}
+.index-items{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: #e7a61a;
+    box-shadow:  -13px 7px 25px -4px rgba(0,0,0,0.58);
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    animation: entrada 2s ease 0s 1 normal forwards;
+}
+.icono{
+    width: 5%;
+}
+@keyframes animacioLogo {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+.imagenPortada{
+    grid-area: imagen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.img-portada{
+    animation: animacioLogo 2s ease 1s 1 normal none;
+    width: 60%;
+}
+footer{
+    grid-area: foot;
+    height: fit-content;
+}
+.logo-delrollo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:600px) {
+    .grid-container{
+        display: grid;
+        grid-template-rows: .2fr 3fr .2fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'title'
+                             'porta'
+                             'foot';
+    }
+    .portada{
+        grid-area: porta;
+        width: 100%;
+
+    }
+    .index{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .index-items{
+        width: 70%;
+        justify-items: center;
+        justify-content: center;
+    }
+    .imagenPortada{
+        grid-area: porta;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+}
+
+

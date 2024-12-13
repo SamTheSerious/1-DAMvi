@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    background-color: gold;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes cuadrat {
+    0% {}
+    50% {transform:rotateY(90deg) translateX(100px) scale(133%); background-color: cyan;}
+    100% {transform:rotateZ(360deg) translateX(200px) scale(300%);background-color: fuchsia;}
+}
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    animation: cuadrat 4s linear 6 alternate;
+    transform-origin: center;
+}

@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes desp {
+    100% {
+        transform: translateY(-100%);
+    }
+}
+div{
+    animation: desp 4s ease-out infinite alternate;
+    background-color: cyan;
+    animation-delay: 5s;
+    width: 100px;
+    height: 100px;
+}
+
+

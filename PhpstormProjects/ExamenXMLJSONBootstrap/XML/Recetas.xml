@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+
+<receta>
+
+  <nombre>Besugo al Horno</nombre>
+  <informaciongeneral>
+    <foto>https://webosfritos.es/wp-content/uploads/2013/12/Besugo-al-horno-1200x900.jpg</foto>
+    <comensales>4</comensales>
+    <tiempo unidad ="m">45</tiempo>
+    <dificultad>Muy fácil</dificultad>
+  </informaciongeneral>
+  
+  <ingredientes>
+      <ingrediente cantidad="1">Besugo</ingrediente>
+      <ingrediente cantidad="1">Limón</ingrediente>
+      <ingrediente cantidad="1" unidad="cuchara sopera">Pan rallado</ingrediente>
+      <ingrediente cantidad="2" unidad="dientes">Ajo</ingrediente>
+      <ingrediente cantidad="1/2" unidad="dl">Vino blanco</ingrediente>
+      <ingrediente>Aceite</ingrediente>
+      <ingrediente>Perejil</ingrediente>
+      <ingrediente>Sal</ingrediente>
+  </ingredientes>
+  
+  <preparacion>
+      <paso numero="1">Limpiar el besugo</paso>
+      <paso numero="2">Ponerlo en fuego</paso>
+      <paso numero="3">Pelar y picar los</paso>
+      <paso numero="4">Cubrir el pescado</paso>
+      <paso numero="5">Meter al horno</paso>
+  </preparacion>
+</receta>
+
+<receta>
+
+  <nombre>Pollo al limon</nombre>
+  <informaciongeneral>
+    <foto>https://i.blogs.es/2005c1/pollo_limon/450_1000.jpg</foto>
+    <comensales>4</comensales>
+    <tiempo unidad ="m">20</tiempo>
+    <dificultad>Fácil</dificultad>
+  </informaciongeneral>
+  
+  <ingredientes>
+      <ingrediente cantidad="2">Pechugas de pollo</ingrediente>
+      <ingrediente cantidad="1">Limón</ingrediente>
+      <ingrediente cantidad="2" unidad="cuchara sopera">Maizena</ingrediente>
+      <ingrediente cantidad="1" unidad="cuchara sopera">Aceite de girasol para freir pollo</ingrediente>
+      <ingrediente cantidad="100" unidad="ml">Caldo de pollo</ingrediente>
+      <ingrediente cantidad="50" unidad="ml">Salsa de soja</ingrediente>
+      <ingrediente>Sal</ingrediente>
+  </ingredientes>
+  
+  <preparacion>
+      <paso numero="1">Corta tres rodajas finas de limón y exprime el resto</paso>
+      <paso numero="2">Cocina el jugo con azúcar, caldo, Maizena y las rodajas a fuego lento hasta obtener un jarabe espeso</paso>
+      <paso numero="3">Marina las pechugas de pollo, cortadas por la mitad, en salsa de soja durante 30 minutos.</paso>
+      <paso numero="4">Mezcla Maizena con huevo batido, empana las pechugas escurridas y fríelas hasta dorarlas.</paso>
+      <paso numero="5">Corta las pechugas en tiras. Coloca las rodajas de limón en una fuente, vierte la mitad de la salsa encima, añade el pollo y cubre con el resto de la salsa.</paso>
+      <paso numero="6">Decora con corteza de limón y flores comestibles. Sirve caliente.</paso>
+  </preparacion>
+</receta>
+
+<receta>
+  <nombre>Crema de Calabacín</nombre>
+  <informaciongeneral>
+    <foto>https://www.cocinatis.com/archivos/202207/CTIS0413-Crema-de-calabacin.jpg</foto>
+    <comensales>4</comensales>
+    <tiempo unidad="m">30</tiempo>
+    <dificultad>Fácil</dificultad>
+  </informaciongeneral>
+  
+  <ingredientes>
+      <ingrediente cantidad="2" unidad="medianos">Calabacines</ingrediente>
+      <ingrediente cantidad="1">Cebolla</ingrediente>
+      <ingrediente cantidad="1" unidad="mediana">Patata</ingrediente>
+      <ingrediente cantidad="500" unidad="ml">Caldo de verduras</ingrediente>
+      <ingrediente cantidad="100" unidad="ml">Nata líquida</ingrediente>
+      <ingrediente cantidad="1" unidad="cuchara sopera">Aceite de oliva</ingrediente>
+      <ingrediente>Sal</ingrediente>
+      <ingrediente>Pimienta</ingrediente>
+  </ingredientes>
+  
+  <preparacion>
+      <paso numero="1">Lavar y cortar los calabacines en trozos pequeños.</paso>
+      <paso numero="2">Pelar y picar la cebolla y la patata.</paso>
+      <paso numero="3">Calentar el aceite en una olla y sofreír la cebolla hasta que esté transparente.</paso>
+      <paso numero="4">Añadir el calabacín y la patata, y rehogar durante unos minutos.</paso>
+      <paso numero="5">Verter el caldo de verduras y cocinar a fuego medio hasta que los ingredientes estén tiernos.</paso>
+      <paso numero="6">Triturar la mezcla con una batidora hasta obtener una crema homogénea.</paso>
+      <paso numero="7">Agregar la nata, salpimentar al gusto, y mezclar bien.</paso>
+      <paso numero="8">Servir caliente y decorar con un chorrito de aceite de oliva, si se desea.</paso>
+  </preparacion>
+</receta>
+
+</recetas>

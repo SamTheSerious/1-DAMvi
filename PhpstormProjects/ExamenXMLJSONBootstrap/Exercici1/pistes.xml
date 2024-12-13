@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pistes>
+    <nom>Nompista</nom>
+    <planeta>Marte</planeta>
+    <dificultat>
+        <nivell>Facil</nivell>
+    </dificultat>
+    <recordTemps unit="minuts">2</recordTemps>
+    <obstacles>
+        <nomObstacle>Obstacle1</nomObstacle>
+        <tipus>Mines</tipus>
+        <impacte>Perdua de velocitat</impacte>
+    </obstacles>
+    <bonificacio>
+        <nomBonificacio>La Bonificacio</nomBonificacio>
+        <duradaBonificacio unit="segons">5</duradaBonificacio>
+        <freqüencia unit="%">25</freqüencia>
+    </bonificacio>
+</pistes>

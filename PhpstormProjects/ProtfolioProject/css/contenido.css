@@ -1,0 +1,237 @@
+.grid-container{
+    display: grid;
+    width: 99%;
+    height: 99%;
+    grid-template-rows: .2fr 1fr .2fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'title'
+                         'article'
+                         'foot';
+}
+.logo-delrollo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    height: 1%;
+}
+.icono-delrollo{
+    width: 5%;
+}
+.texto-boton-header{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+    color: white;
+}
+header{
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo-header{
+    width: 10%;
+    border: orange 5px solid;
+    border-radius: 50%;
+}
+.linea, .linea2{
+    border-bottom: forestgreen 5px solid;
+    width: 80%;
+}
+.linea{
+    width: 10%;
+}
+.boton-header{
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    box-shadow:  -13px 7px 25px -4px rgba(0,0,0,0.58);
+    color: white;
+    font-weight: bold;
+}
+.boton-header:active{
+    transform: scale(90%);
+}
+main{
+    grid-area: article;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+h3{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    background-color: orange;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 25px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: forestgreen;
+}
+.taula-ods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    opacity: 0;
+    animation: taula 2s ease 1s 1 normal forwards;
+}
+@keyframes taula {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes intro-taula {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.intro-anim{
+    animation: intro-taula 2s ease 0s 1 normal forwards;
+}
+tr{
+    text-align: center;
+    background-color: forestgreen;
+    color: white;
+}
+td{
+    background-color: rgba(232, 192, 87, 1);
+    font-weight: bold;
+    border: 1px forestgreen solid;
+
+}
+li{
+    background-color: orange;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: fit-content;
+}
+.main-impactes{
+    grid-area: article;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.impactes{
+    width: 50%;
+    background-color: #89CFF0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -3px 1px 5px 5px rgba(0,0,0,0.42);
+}
+.titol-impactes, .text-impactes{
+    font-weight: normal;
+    font-size: 20px;
+}
+@keyframes repte {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateY(-65px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateY(-28px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateY(-8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+}
+.repte{
+    align-items: center;
+    justify-content: space-evenly;
+    animation: repte 2s ease 0s 1 normal forwards;
+}
+.logo-delrollo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    grid-area: foot;
+    height: fit-content;
+}
+@media (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+    .intro, .taula-ods{
+        width: 100%;
+    }
+}

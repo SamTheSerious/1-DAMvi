@@ -1,0 +1,14 @@
+th,td{
+    border: 5px solid orchid;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    text-align: left;
+}
+th{
+    padding: 10px;
+    background-color: mediumvioletred;
+}

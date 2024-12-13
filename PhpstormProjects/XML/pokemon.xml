@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pokedex>
+    <pokemon>
+        <numPokedex>0597</numPokedex>
+
+        <generalInfo>
+            <nombrePkm>Ferroseed</nombrePkm>
+            <typesPkm>
+                <type>Grass</type>
+                <type> </type>
+            </typesPkm>
+            <species>Thorn Pod Pokemon</species>
+            <height unidad="m">0.6</height>
+            <weight  unidad="kg">18.8</weight>
+        </generalInfo>
+
+        <abilities>
+            <ability hidden="false">Iron Barbs</ability>
+        </abilities>
+
+        <training>
+            <evYield>1 Defense</evYield>
+            <catchRate>255</catchRate>
+            <baseFriendship>50</baseFriendship>
+            <baseExp>61</baseExp>
+            <growthRate>Medium Fast</growthRate>
+        </training>
+
+        <breeding>
+            <eggGroups>Grass, Mineral</eggGroups>
+            <genders>
+                <gender>
+                    <genderName>Male</genderName>
+                    <percentatge unidad="%">50</percentatge>
+                </gender>
+                <gender>
+                    <genderName>Female</genderName>
+                    <percentatge unidad="%">50</percentatge>
+                </gender>
+            </genders>
+            <eggCycles>20</eggCycles>
+        </breeding>
+
+        <evolutions>
+            <evolution>
+                <numPkdxEvolution>0598</numPkdxEvolution>
+                <nameEvolution>Ferrothorn</nameEvolution>
+                <typesEvolution>
+                    <primaryTypeEvol>Grass</primaryTypeEvol>
+                    <secondaryTypeEvol> </secondaryTypeEvol>
+                </typesEvolution>
+                <levelEvolution>40</levelEvolution>
+                <methodEvolution>Leveling Up</methodEvolution>
+            </evolution>
+        </evolutions>
+
+        <baseStats>
+            <hp>44</hp>
+            <attack>50</attack>
+            <def>91</def>
+            <spAtk>24</spAtk>
+            <spDef>86</spDef>
+            <speed>10</speed>
+        </baseStats>
+
+        <moves>
+            <move>
+                <level>1</level>
+                <moveName>Harden</moveName>
+                <typeMove>Normal</typeMove>
+                <category>Status</category>
+                <power> </power>
+                <acc> </acc>
+            </move>
+            <move>
+                <level>1</level>
+                <moveName>Tackle</moveName>
+                <typeMove>Normal</typeMove>
+                <category>Physical</category>
+                <power>40</power>
+                <acc>100</acc>
+            </move>
+            <move>
+                <level>5</level>
+                <moveName>Metal Claw</moveName>
+                <typeMove>Steel</typeMove>
+                <category>Physical</category>
+                <power>50</power>
+                <acc>95</acc>
+            </move>
+            <move>
+                <level>10</level>
+                <moveName>Pin Missile</moveName>
+                <typeMove>Bug</typeMove>
+                <category>Physical</category>
+                <power>25</power>
+                <acc>95</acc>
+            </move>
+            <move>
+                <level>15</level>
+                <moveName>Ingrain</moveName>
+                <typeMove>Grass</typeMove>
+                <category>Status</category>
+                <power> </power>
+                <acc> </acc>
+            </move>
+            <move>
+                <level>20</level>
+                <moveName>Flash Cannon</moveName>
+                <typeMove>Steel</typeMove>
+                <category>Special</category>
+                <power>80</power>
+                <acc>100</acc>
+            </move>
+            <move>
+                <level>25</level>
+                <moveName>Iron Head</moveName>
+                <typeMove>Steel</typeMove>
+                <category>Physical</category>
+                <power>80</power>
+                <acc>100</acc>
+            </move>
+            <move>
+                <level>30</level>
+                <moveName>Self-Destruct</moveName>
+                <typeMove>Normal</typeMove>
+                <category>Physical</category>
+                <power>200</power>
+                <acc>100</acc>
+            </move>
+            <move>
+                <level>35</level>
+                <moveName>Iron Defense</moveName>
+                <typeMove>Steel</typeMove>
+                <category>Status</category>
+                <power> </power>
+                <acc> </acc>
+            </move>
+            <move>
+                <level>41</level>
+                <moveName>Curse</moveName>
+                <typeMove>Ghost</typeMove>
+                <category>Status</category>
+                <power> </power>
+                <acc> </acc>
+            </move>
+            <move>
+                <level>45</level>
+                <moveName>Gyro Ball</moveName>
+                <typeMove>Steel</typeMove>
+                <category>Physical</category>
+                <power> </power>
+                <acc>100</acc>
+            </move>
+            <move>
+                <level>50</level>
+                <moveName>Explosion</moveName>
+                <typeMove>Normal</typeMove>
+                <category>Physical</category>
+                <power>250</power>
+                <acc>100</acc>
+            </move>
+        </moves>
+
+        <pkdxEntries>
+            <entry>
+                <gameName>Sword</gameName>
+                <description>
+                    It defends itself by launching spikes,
+                    but its aim isn’t very good at first.
+                    Only after a lot of practice will it improve.
+                </description>
+            </entry>
+            <entry>
+                <gameName>Shield</gameName>
+                <description>
+                    Mossy caves are their preferred dwellings.
+                    Enzymes contained in mosses help Ferroseed’s spikes
+                    grow big and strong.
+                </description>
+            </entry>
+        </pkdxEntries>
+
+        <locations>
+            <location>
+                <game>Sword</game>
+                <places>Route 4, Bridge Field, Motostoke Riverbank, Stony Wilderness, Lakeside</places>
+            </location>
+            <location>
+                <game>Shield</game>
+                <places>Cave</places>
+            </location>
+        </locations>
+
+    </pokemon>
+</pokedex>

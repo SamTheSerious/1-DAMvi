@@ -1,0 +1,35 @@
+.titol{
+    color: darkblue;
+    background-color: yellow;
+    text-align: center;
+    margin: 0;
+    padding: 50px 5px;
+}
+
+.mesura-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aqua;
+    padding: 15px 5px ;
+}
+.mesura-item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    height: 100%;
+}
+
+img{
+    height:50%;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+

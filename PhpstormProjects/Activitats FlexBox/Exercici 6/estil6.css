@@ -1,0 +1,61 @@
+body {
+    width: 60em;
+    margin: 0 auto;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+section {
+    padding: 2em;
+    margin: 1em;
+}
+ul {
+    padding: 0;
+}
+li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+}
+#blue{
+    background-color: blue;
+    order: 1;
+}
+#blue > ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#green{
+    background-color: green;
+    order:2;
+}
+#green > ul{
+    display: flex;
+    flex-direction: column;
+}
+#red{
+    display: flex;
+    background-color: red;
+    order: 3;
+}
+#orange{
+    background-color: orange;
+    order: 4;
+}
+.orange_flex{
+    display: flex;
+}
+.orange_flex > li{
+    flex-grow: 1;
+    width: 100%;
+}
+#yellow{
+    display: flex;
+    background-color: yellow;
+    order: 5;
+}
+
+

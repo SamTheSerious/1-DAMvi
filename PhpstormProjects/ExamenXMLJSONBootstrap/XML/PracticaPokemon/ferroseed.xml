@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pokedex>
+  <pokemon>
+  
+      <nombre>Ferroseed</nombre>
+      <numPkdx>0597</numPkdx>
+      <type>Grass</type>
+      <species>Thorn Pod Pokemon</species>
+      <height unidad="m">0.6</height>
+      <weight  unidad="kg">18.8</weight>
+      
+      <abilities>
+        <ability>Iron Barbs</ability>
+      </abilities>
+      
+      <training>
+        <evYield>1 Defense</evYield>
+        <catchRate>255</catchRate>
+        <baseFriendship>50</baseFriendship>
+        <baseExp>61</baseExp>
+        <growthRate>Medium Fast</growthRate>
+      </training>
+      
+      <breeding>
+        <eggGroups>Grass, Mineral</eggGroups>
+        <gender tipo="male" unidad="%">50</gender>
+        <gender tipo="female" unidad="%">50</gender>
+        <eggCycles>20</eggCycles>
+      </breeding>
+      
+      <evolutions>
+        <evolution num="1">
+          <pokemon>
+            <nombre>Ferrothorn</nombre>
+            <numPkdx>0598</numPkdx>
+            <type>Grass</type>
+          </pokemon>
+        </evolution>
+      </evolutions>
+      
+      <baseStats>
+        <hp>44</hp>
+        <attack>50</attack>
+        <def>91</def>
+        <spAtk>24</spAtk>
+        <spDef>86</spDef>
+        <speed>10</speed>
+      </baseStats>
+      
+      <learnMoves>
+        <abiName>Curse</abiName>
+        <learnLVL>41</learnLVL>
+        <type>Ghost</type>
+        <power>-</power>
+        <acc>-</acc>
+      </learnMoves>
+      
+  </pokemon>
+</pokedex>

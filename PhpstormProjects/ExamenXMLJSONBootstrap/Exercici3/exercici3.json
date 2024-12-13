@@ -1,0 +1,26 @@
+[
+  {
+    "nomMod": "Elmod",
+    "joc": "The Game",
+    "dataCreacio": "12/12/2020",
+    "autor": {
+      "nomAutor": "El AUtor",
+      "cognomAutor": "El cognom"
+    },
+    "totalDescarregas": "25235",
+    "versions": [
+      {
+        "nomVersio": "V25",
+        "anyVersio": "2024",
+        "novetats": [
+          "novetat 1",
+          "novetat 2"
+        ],
+        "cost": {
+          "@unity": "€",
+          "#text": "25"
+        }
+      }
+    ]
+  }
+]

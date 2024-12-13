@@ -1,0 +1,31 @@
+[
+  {
+    "nomPista": "Pista1",
+    "planeta": "Marte",
+    "dificultat": "Facil",
+    "recordTemps": {
+      "@unity": "minuts",
+      "#text": "2"
+    },
+    "obstacles": [
+      {
+        "nomObstacle": "Obstacle 1",
+        "tipus": "Mines",
+        "impacte": "Perdua de velocitat"
+      }
+    ],
+    "bonificacio": [
+      {
+      "nomBonificacio": "La Bonificacio",
+      "duradaBonificacio": {
+        "@unity": "segons",
+        "#text": "5,"
+      },
+      "freqüencia": {
+        "@unity": "%",
+        "#text": "25"
+      }
+    }
+    ]
+  }
+]

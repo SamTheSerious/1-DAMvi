@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    background-color: darkblue;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    flex-grow: 1;
+}
+main{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
