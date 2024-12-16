@@ -1,11 +1,10 @@
 package problemasJoel;
 
 import java.util.*;
-import java.util.Map.Entry;
-import java.util.stream.Stream;
 
 
-public class ProblemasJoel {
+
+public class ClicksTo {
 	
 	public static void main(String[] args) {
 		Scanner consola = new Scanner(System.in);
@@ -62,6 +61,7 @@ public class ProblemasJoel {
 				clicks++;
 			}
 		}
+		consola.close();
 	}
 }
 
